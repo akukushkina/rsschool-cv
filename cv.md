@@ -13,3 +13,18 @@ As a web developer, I focus on developing and implementing responsive and user-f
 JavaScript to create visually appealing websites that adhere to coding standards and best practices. I am proficient in troubleshooting and debugging
 issues, ensuring the smooth functionality of the websites I work on. This experience enhances my technical abilities and reinforces my attention to
 detail in writing clean and well-documented code. 
+
+## Skills:
+
+- HTML5
+- CSS3
+- SASS
+- JavaSript
+- SQL
+- GIT
+- BEM
+
+## Certificates
+
+- Front End Pro (Hillel IT School)
+- Data and SQL (Code First Girls)
