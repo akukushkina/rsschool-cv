@@ -61,3 +61,18 @@ National University Odesa Law Academy
 Specialist
 Law
 09/2013 - 05/2017
+
+## Languages
+
+- Ukrainian (Native)
+- English (Fluent)
+- German (Begginer)
+
+## Portfolio
+
+- Change background color on click <https://akukushkina.github.io/change_color/>
+- Landing page for school <https://akukushkina.github.io/school/>
+- Split effect <https://akukushkina.github.io/split/>
+- Sound board <https://akukushkina.github.io/sound_board/>
+- Dad jokes <https://akukushkina.github.io/dadJokes/>
+- Landing page for web developer <https://akukushkina.github.io/web__pages/>
