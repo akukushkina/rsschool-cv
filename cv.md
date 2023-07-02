@@ -28,3 +28,36 @@ detail in writing clean and well-documented code.
 
 - Front End Pro (Hillel IT School)
 - Data and SQL (Code First Girls)
+
+
+## Code Samples
+
+Change background on click
+
+```
+const button = document.querySelector('.change');
+const colorName = document.querySelector('.color__name');
+const colors = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'A', 'B', 'C', 'D', 'E', 'F'];
+
+button.addEventListener('click', function(){
+   let hexColor = '#';
+   for(let i = 0; i < 6; i++){
+     hexColor += colors[changeColor()];
+   }
+   colorName.textContent = hexColor;
+   document.body.style.backgroundColor = hexColor;
+});
+
+function changeColor(){
+   let color = Math.floor(Math.random() * colors.length);
+   return color;
+}
+
+```
+
+## Education
+
+National University Odesa Law Academy
+Specialist
+Law
+09/2013 - 05/2017
