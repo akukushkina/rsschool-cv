@@ -24,25 +24,34 @@ a {
 
 .cv-left,
 .right_cv {
-      padding: 20px;
+    padding: 20px;
 }
 
 .cv-left {
     min-width: 40%;
     background-color: #4f4e52;
     color: #fff;
- 
 }
-.cv-title {
+
+.photo {
+width: 200px;
+height: 200px;
+border-radius: 50%;
+}
+.cv-title,
+.title,
+.experience_list {
     margin-bottom: 10px;
 }
-.surname {
+.surname,
+.title {
     text-transform: uppercase;
 }
 .cv-job {
     font-size: 18px;
-    margin-bottom: 30px;
 }
+
+.cv-job,
 .contacts,
 .languages,
 .skills,
@@ -50,27 +59,23 @@ a {
 .about,
 .certifications,
 .education,
-.experience
- {
+.experience{
     margin-bottom: 30px;
-}
-.title {
-    text-transform: uppercase;
-    margin-bottom: 10px;
 }
 
 .contacts_items,
 .hobbies_items,
 .skills_items,
-.languages_item,
-.certifications_item {
+.languages_item {
     list-style: none;
 }
 
 .contacts_items:not(:last-child),
 .hobbies_items:not(:last-child),
 .skills_items:not(:last-child),
-.languages_item:not(:last-child) {
+.languages_item:not(:last-child),
+.experience_title,
+.experience_duration  {
     margin-bottom: 5px;
 }
 
@@ -79,32 +84,9 @@ a {
     background-color: #fff;
 }
 
-.certifications {
-}
-.certifications_list {
-}
-.certifications_item {
-}
-.education {
-}
-.education_list {
-}
-.education_item {
-}
-.experience {
-}
-.experience_list {
-    margin-bottom: 10px;
-}
-.experience_title,
-.experience_duration {
-    margin-bottom: 5px;
-}
-.experince_company {
-}
-.experience_duration {
-}
 .education_item,
-.experience_item {
+.experience_item,
+.certifications_item {
     list-style-type: '\002D';
+    padding-left: 5px;
 }
