@@ -4,20 +4,34 @@
     padding: 0;
 }
 
+body {
+    background-color: #ccc;
+}
+
 a {
     color: inherit;
     text-decoration: none;
 }
 
-.main {
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.inner {
     display: flex;
+}
+
+.cv-left,
+.right_cv {
+      padding: 20px;
 }
 
 .cv-left {
     min-width: 40%;
     background-color: #4f4e52;
     color: #fff;
-   padding: 20px;;
+ 
 }
 .cv-title {
     margin-bottom: 10px;
@@ -32,7 +46,11 @@ a {
 .contacts,
 .languages,
 .skills,
-.hobbies
+.hobbies,
+.about,
+.certifications,
+.education,
+.experience
  {
     margin-bottom: 30px;
 }
@@ -40,12 +58,12 @@ a {
     text-transform: uppercase;
     margin-bottom: 10px;
 }
-.contacts_list {
-}
+
 .contacts_items,
 .hobbies_items,
 .skills_items,
-.languages_item {
+.languages_item,
+.certifications_item {
     list-style: none;
 }
 
@@ -56,3 +74,37 @@ a {
     margin-bottom: 5px;
 }
 
+.right_cv {
+    text-align: justify;
+    background-color: #fff;
+}
+
+.certifications {
+}
+.certifications_list {
+}
+.certifications_item {
+}
+.education {
+}
+.education_list {
+}
+.education_item {
+}
+.experience {
+}
+.experience_list {
+    margin-bottom: 10px;
+}
+.experience_title,
+.experience_duration {
+    margin-bottom: 5px;
+}
+.experince_company {
+}
+.experience_duration {
+}
+.education_item,
+.experience_item {
+    list-style-type: '\002D';
+}
