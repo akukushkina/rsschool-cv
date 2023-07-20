@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    display: flex;
+    padding: 20px;
+}
+
+.header_logo {
+}
+.menu {
+}
+.menu_list {
+}
+.menu_item {
+}
+.menu_link {
+}
+.icon {
+}
